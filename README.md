@@ -1,6 +1,6 @@
 # A Logistic Model of Informed Voting
 
-## Variable keys
+### Variable keys
   
 euVote:  
 0 = leave  
