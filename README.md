@@ -1,7 +1,13 @@
 # A Logistic Model of Informed Voting
 
-### Variable keys
-  
+This repository contains a Jupyter Notebook with three multinomial logistic models, used to simulate how people in the UK would vote, were they fully informed, based on a British Election Study data set (Fieldhouse et al. 2018) The data set is from a face-to-face survey using an address-based random probability sample of eligible voters living in 468 wards in 234 Parliamentary Constituencies in England, Scotland, and Wales, for a total sample of 2,194 respondents. The full data set can be accessed at https://www.britishelectionstudy.com/data-object/2017-face-to-face/.
+
+The notebook is in six sections, as follows:
+
+## 1. Data Preparation
+This section reads in the (cleaned) data and recodes some factor variables, as follows: 
+
+```
 euVote:  
 0 = leave  
 1 = did not vote  
@@ -107,4 +113,7 @@ region:
 7 = South West  
 8 = Wales  
 9 = West Midlands  
-10 = Yorkshire & Humber  
+10 = Yorkshire & Humber 
+```
+
+This section also defines the materials for the three models: a demographic model which, as the name suggests, only contains demographic variables; an EU vote model, that also includes how people voted in the 2016 EU referendum; and an immigration attitude model, that also includes respondents' answer to the question whether too many immigrants have been let into the country.
