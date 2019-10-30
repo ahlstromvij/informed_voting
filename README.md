@@ -1,1 +1,2 @@
-# informed_voting
+# A Logistic Model of Informed Voting
+Test
