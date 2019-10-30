@@ -117,3 +117,6 @@ region:
 ```
 
 This section also defines the materials for the three models: a demographic model which, as the name suggests, only contains demographic variables; an EU vote model, that also includes how people voted in the 2016 EU referendum; and an immigration attitude model, that also includes respondents' answer to the question whether too many immigrants have been let into the country.
+
+## 2. Three Multinomial Logistic (Softmax) Models
+This section fits the three multinomial models above on the BES data, using `LogisticRegression` from Scikit-Learn, and also makes a prediction on one observation from the data set for purposes of illustration.
