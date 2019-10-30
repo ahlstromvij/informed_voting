@@ -1,4 +1,4 @@
-# A Logistic Model of Informed Voting
+# Some Models of Informed Voting
 
 This repository contains a Jupyter Notebook with three multinomial logistic models, used to simulate how people in the UK would vote, were they fully informed, based on a British Election Study data set (Fieldhouse et al. 2018) The data set is from a face-to-face survey using an address-based random probability sample of eligible voters living in 468 wards in 234 Parliamentary Constituencies in England, Scotland, and Wales, for a total sample of 2,194 respondents. The full data set can be accessed at https://www.britishelectionstudy.com/data-object/2017-face-to-face/.
 
