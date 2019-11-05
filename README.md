@@ -8,7 +8,7 @@ The notebook is in six sections, as follows:
 This section reads in the (cleaned up) data and recodes a number of ordinal and nominal variables. The one-hot-encoding of the latter makes clear their keys; for the remaining variables, keys are included in comments. The section also generates the train and test sets for the two models: a demographic model which, as the name suggests, only contains demographic variables; and an EU vote model, that also includes how people voted in the 2016 EU referendum.
 
 ## 2. Two Multinomial Logistic (Softmax) Models
-This section fits the two multinomial models above on the BES data, using `LogisticRegression` from Scikit-Learn, and also makes a prediction on one observation from the data set for purposes of illustration.
+This section fits the two multinomial models above on the BES data, using `LogisticRegression` from Scikit-Learn, and also makes a prediction on one observation from the data set for purposes of illustration, as well as plots the result.
 
 ## 3. Model Evaluation
 This section calculates the log loss for the two models. We see two things: first, both models perform better than two dumb models, used as benchmarks. Second, the more complex model has a lower log loss (although not by a wide margin), which makes sense given that how people voted in the EU referendum vote is likely a highly predictive variable. However, as far as model selection is concerned, this fact should be interpreted with care, and here's why: 
