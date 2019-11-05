@@ -15,7 +15,7 @@ This section calculates the log loss for the two models. We see two things: firs
 
 The simulations in the next section in effect model a counterfactual: how each observed individual would have voted, were they fully informed. For several highly predictive variables - e.g., how they would've voted in the EU referendum - those variables might have taken on different values, were the individuals involved more informed (i.e., they might have voted differently and held different views). For that reason, there's a case for not including them in the model, and for going for the demographic model in particular. That's also what we do in Section 4.
 
-## 4. Simulation of Fully Informed (Reported) Preferences
+## 4. Simulation of Fully Informed (Reported) Vote
 This section simulates the fully informed (reported) preference for a single individual, by way of illustration. The maximum ability value is identified and ascribed to that individual, at which point the (revised) probability distribution across the electoral options (including abstaining) are calcuated, using the demographic model. Finally, that distribution is plotted graphically, to visualise it.
 
 ## 5. Difference Between Actual and Fully Informed Vote
