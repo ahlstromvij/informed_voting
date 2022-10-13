@@ -5,7 +5,7 @@ This repository contains a Jupyter Notebook with two multinomial logistic models
 The notebook is in six sections, as follows:
 
 ## 1. Data Preparation
-This section reads in the (cleaned up) data and recodes a number of ordinal and nominal variables. The one-hot-encoding of the latter makes clear their keys; for the remaining variables, keys are included in comments (and also in the `pandas_profiling` summary at the top of the section, which doesn't show up in the GitHub version). The section also generates the train and test sets for the two models: a demographic model which, as the name suggests, only contains demographic variables; and an EU vote model, that also includes how people voted in the 2016 EU referendum.
+This section reads in the (cleaned up) data and recodes a number of ordinal and nominal variables. The section also generates the train and test sets for the two models: a demographic model which, as the name suggests, only contains demographic variables; and an EU vote model, that also includes how people voted in the 2016 EU referendum.
 
 ## 2. Two Multinomial Logistic (Softmax) Models
 This section fits the two multinomial models above on the BES data, using `LogisticRegression` from Scikit-Learn, and also makes a prediction on one observation from the data set for purposes of illustration, as well as plots the result.
